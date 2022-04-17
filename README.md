@@ -106,6 +106,21 @@ Find cursor's price
 Find grandma's price
 ![alt text][cookie-clicker-grandmaprice-img]
 
+## 05 UnitTest Framework (Part 1)
+
+**Goals:** separate each testing component into class.
+
+**Read:** Selenium Documentation - Page Objects
+https://selenium-python.readthedocs.io/page-objects.html
+
+1. Create a folder named 'testcase'
+2. Create these files in 'testcase' folder: main.py, element.py, locator.py, page.py
+3. Write **setup** procedure and **run** test case in main.py
+4. Each page on a website should be written on a separate class in page.py. This is where to write the Selenium code. This will take care of the **logic** of the test.
+5. All the code to **locate elements** should be put in locator.py
+  - Benefit: easy to keep track and change the IDs or css selectors
+
+
 [inspect-article-title-img]: image/inspect_article_titles.JPG "inspect article title img"
 [inspect_article_summary-img]: image/inspect_article_summary.JPG "inspect article summary img"
 [inspect-get-started-img]: image/inspect_get_started_button.JPG "inspect get started button img"
