@@ -78,7 +78,40 @@ https://www.youtube.com/watch?v=Xjv1sY630Uc&list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlq
 
 Because the sample page have ads, so clicking on the button doesn't work. So just learn the code and test it somewhere else
 
+## 04 ActionChains & Automating Cookie Clicker!
 
-[inspect_article_summary-img]: image/inspect_article_summary.JPG "inspect article summary img"
+**Goal:** Get access into more advance actions such as drag & drop, double-click, long press, etc.
+
+**Cookie Clicker game website (not active):**
+https://orteil.dashnet.org/cookieclicker/
+
+**A very simple game:** click on the cookie as many time as possible until we have enough resources to upgrade the Cursor or Grandma.
+
+![alt text][cookie-clicker-img]
+
+**Read:** Documentation - 7.2 Action Chains
+https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.common.action_chains
+
+Find the id of the cookie image
+
+![alt text][cookie-clicker-cookie-id-img]
+
+Find the id of the number of cookie banner
+
+![alt text][cookie-clicker-numofcookie-img]
+
+Find cursor's price
+![alt text][cookie-clicker-cursorprice-img]
+
+Find grandma's price
+![alt text][cookie-clicker-grandmaprice-img]
+
 [inspect-article-title-img]: image/inspect_article_titles.JPG "inspect article title img"
+[inspect_article_summary-img]: image/inspect_article_summary.JPG "inspect article summary img"
 [inspect-get-started-img]: image/inspect_get_started_button.JPG "inspect get started button img"
+
+[cookie-clicker-img]: image/cookie-clicker.JPG "cookie clicker img"
+[cookie-clicker-cookie-id-img]: image/cookie-clicker-cookieid.JPG "cookie id img"
+[cookie-clicker-numofcookie-img]: image/cookie-clicker-numofcookie.JPG "number of cookie img"
+[cookie-clicker-cursorprice-img]: image/cookie-clicker-cursorprice.JPG "cursor price img"
+[cookie-clicker-grandmaprice-img]: image/cookie-clicker-grandmaprice.JPG "grandma price img"
