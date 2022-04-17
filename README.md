@@ -64,6 +64,21 @@ https://www.youtube.com/watch?v=Xjv1sY630Uc&list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlq
     - Get a list of all articles
     - Get the summary of each article by accessing the class 'entry-summary'
 
+## 03 Page Navigating and Clicking Elements
+
+**Goals** How to navigate in a web page: to to click on link, button, or go back to previous page.
+
+1. Go to Home page
+2. Click on Python Programming on side bar
+3. Click on Beginner Python tutorial
+4. Click on Get Started button
+  ![alt text][inspect-get-started-img]
+
+**Note:**
+
+Because the sample page have ads, so clicking on the button doesn't work. So just learn the code and test it somewhere else
+
 
 [inspect_article_summary-img]: image/inspect_article_summary.JPG "inspect article summary img"
 [inspect-article-title-img]: image/inspect_article_titles.JPG "inspect article title img"
+[inspect-get-started-img]: image/inspect_get_started_button.JPG "inspect get started button img"
