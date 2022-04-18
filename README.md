@@ -4,7 +4,7 @@ Author: Tech with Tim
 Date: Apr 26, 2020  
 
 Started: Apr 15, 2022  
-End: TBU  
+End: Apr 17, 2022  
 
 This is a code along session from a YouTube tutorial by Tech with Tim:
 https://www.youtube.com/watch?v=Xjv1sY630Uc&list=PLzMcBGfZo4-n40rB1XaJ0ak1bemvlqumQ  
@@ -120,6 +120,15 @@ https://selenium-python.readthedocs.io/page-objects.html
 5. All the code to **locate elements** should be put in locator.py
   - Benefit: easy to keep track and change the IDs or css selectors
 
+## 06 UnitTest Framework (Part 2)
+
+1. Access locators from locator.py
+2. Page elements will be put in element.py. Each class will represent an element in a page.
+3. Create a Set Value of element and Get Value from element base methods in element.py
+4. Import and use the Set Value and Get Value method in page.py
+
+Inspect Search Box element  
+![alt text][pythonorg-searchbox-img]
 
 [inspect-article-title-img]: image/inspect_article_titles.JPG "inspect article title img"
 [inspect_article_summary-img]: image/inspect_article_summary.JPG "inspect article summary img"
@@ -130,3 +139,5 @@ https://selenium-python.readthedocs.io/page-objects.html
 [cookie-clicker-numofcookie-img]: image/cookie-clicker-numofcookie.JPG "number of cookie img"
 [cookie-clicker-cursorprice-img]: image/cookie-clicker-cursorprice.JPG "cursor price img"
 [cookie-clicker-grandmaprice-img]: image/cookie-clicker-grandmaprice.JPG "grandma price img"
+
+[pythonorg-searchbox-img]: image/python-org-search-box.JPG "python.org search box img"

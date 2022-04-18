@@ -1,16 +1,28 @@
-#-- This will be the based class for all our pages
+from locator import *
+from element import BasePageElement
+
+class SearchTextElement(BasePageElement):
+  #-- Inspect python.org search input box and found <input ... name="q" ... >
+  locator = 'q'
+
 class BasePage(object):
   def __init__(self, driver):
     self.driver = driver
 
-#-- Define a class for each page we want to test (using Base Inheritance)
 class MainPage(BasePage):
+  #-- Whenever we want to set a value to or get te value from this element. It 
+  #--   will use the Set and Get method from the Based Class.
+  search_text_element = SearchTextElement()
 
-  #-- A method to check if the title of the page matches with what we want it
-  #--   to show - is the word 'Python' appear in the title of the page
   def is_title_matches(self):
     return 'Python' in self.driver.title
 
   def click_go_button(self):
-    element = self.driver.find_element()
+    #-- The * is used to unpack a tuple object into multiple separated objects.
+    #-- Example: *(1, 2) --> 1, 2
+    element = self.driver.find_element(*MainPageLocators.GO_BUTTON)
     element.click()
+
+class SearchResultPage(BasePage):
+  def is_results_found(self):
+    return 'No results found.' not in self.driver.page_source
